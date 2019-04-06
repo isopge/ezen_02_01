@@ -16,7 +16,7 @@ for i in soup.find_all(name='p', attrs=({"class":"artist"})):
 
 print('------')
 
-for i in soup.find_all(name='p', attrs=({"class","title"})):
+for i in soup.find_all(name='p', attrs=({"class","album"})):
     n_title += 1
     print(str(n_title)+" 위")
     print("노래제목: "+i.text)
